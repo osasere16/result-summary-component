@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="d-flex flow-content">
+    <main>
+      <div class="container d-flex">
+        <div class="result flow-content">
+          <h4 class="result__sub--header--primary">Your Result</h4>
+          <div class="result__score">
+            <h1 class="result__score--main">76</h1>
+            <p class="result__score--sub">of 100</p>
+          </div>
+          <h3 class="result__sub--header--secondary">Great</h3>
+          <p class="result__text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="summary flow-content">
+          <h3 class="summary__header">Summary</h3>
+          <div class="summary__content flow-content">
+            <div class="summary__content--reaction d-flex">
+              <div class="summary__content--reaction-title d-flex">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  alt="reaction icon"
+                />
+                <p>Reaction</p>
+              </div>
+              <p class="summary__scores">
+                80 <span class="summary__score--sub">/ 100</span>
+              </p>
+            </div>
+            <div class="summary__content--memory d-flex">
+              <div class="summary__content--memory-title d-flex">
+                <img src="assets/images/icon-memory.svg" alt="memory icon" />
+                <p>Memory</p>
+              </div>
+              <p class="summary__scores">
+                92 <span class="summary__score--sub">/ 100</span>
+              </p>
+            </div>
+            <div class="summary__content--verbal d-flex">
+              <div class="summary__content--verbal-title d-flex">
+                <img src="assets/images/icon-verbal.svg" alt="verbal icon" />
+                <p>Verbal</p>
+              </div>
+              <p class="summary__scores">
+                61 <span class="summary__score--sub">/ 100</span>
+              </p>
+            </div>
+            <div class="summary__content--visual d-flex">
+              <div class="summary__content--visual-text d-flex">
+                <img src="assets/images/icon-visual.svg" alt="visual icon" />
+                <p>Visual</p>
+              </div>
+              <p class="summary__scores">
+                72 <span class="summary__score--sub">/ 100</span>
+              </p>
+            </div>
+          </div>
+          <button class="summary__btn">Continue</button>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <br /><a href="#">shadrachosasere16@gmail.com</a>.
+    </div>
+  </body>
+</html>
